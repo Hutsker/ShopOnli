@@ -1,0 +1,21 @@
+<?php  
+class Products 
+{
+	public $id,
+	$price,
+	$name,
+	$category,
+	$description;
+
+	public function __construct($id,	$price,	$name,	$category,	$description)
+	{
+	   $this->id = $id; 
+	   $this->price = $price;
+	   $this->name = $name;
+	   $this->category = $category;
+	   $this->description = $description;
+	}
+
+}
+
+?>
